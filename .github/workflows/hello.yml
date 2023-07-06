@@ -13,7 +13,7 @@ jobs:
         uses: cyberark/conjur-action@v2.0.2
         with:
           url: ${{ secrets.CONJUR_URL }}
-          account: cyberarkdemo
+          account: acme
           host_id: ${{ secrets.CONJUR_USERNAME }}
           api_key: ${{ secrets.CONJUR_API_KEY }}
           secrets: unique/dbaccount/dbaccount;unique/dbaccount/db-password
