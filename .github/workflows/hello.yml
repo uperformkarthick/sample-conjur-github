@@ -16,4 +16,4 @@ jobs:
           account: acme
           host_id: ${{ secrets.CONJUR_USERNAME }}
           api_key: ${{ secrets.CONJUR_API_KEY }}
-          secrets: db-login;db-passwor
+          secrets: db-login;db-password
