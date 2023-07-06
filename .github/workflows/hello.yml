@@ -17,3 +17,5 @@ jobs:
           host_id: ${{ secrets.CONJUR_USERNAME }}
           api_key: ${{ secrets.CONJUR_API_KEY }}
           secrets: db-login;db-password
+      - name: print secrets
+        run: echo "$db-password"
